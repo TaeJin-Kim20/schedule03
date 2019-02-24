@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 public class LoggerInterceptor extends HandlerInterceptorAdapter {
 
-    protected Logger log = LoggerFactory.getLogger(LoggerInterceptor.class);
+    protected Logger log = LoggerFactory.getLogger(LoggerInterceptor.class.getName());
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {

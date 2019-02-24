@@ -11,9 +11,13 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="tjkim">
-		<level value="info" />
+	<logger name="tjkim" additivity="false">
+		<level value="debug" />
+		<appender-ref ref="console"/>
 	</logger>
+
+
+	출처: https://addio3305.tistory.com/43?category=772645 [흔한 개발자의 개발 노트]
 	
 	<!-- 3rdparty Loggers -->
 	<logger name="org.springframework.core">
