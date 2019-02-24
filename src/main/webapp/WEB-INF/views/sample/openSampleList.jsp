@@ -6,12 +6,11 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<jsp:forward page="/sample/openSampleList.do"/>
 <html>
 <head>
-    <title>Schedule</title>
+    <title>OpenSample</title>
 </head>
 <body>
-    <h1>Index.jsp</h1>
+    <h1>OpenSampleList.jsp</h1>
 </body>
 </html>
