@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.tjkim.schedule">
+	<logger name="com.tjkim.common">
 		<level value="info" />
 	</logger>
 	

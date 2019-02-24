@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="schedule04:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>schedule04</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="schedule-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="schedule04:war exploded" />
+    </root>
+  </artifact>
+</component>

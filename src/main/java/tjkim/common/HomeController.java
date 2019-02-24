@@ -1,4 +1,4 @@
-package com.tjkim.schedule;
+package tjkim.common;
 
 import java.text.DateFormat;
 import java.util.Date;
