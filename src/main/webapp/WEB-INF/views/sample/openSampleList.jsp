@@ -12,5 +12,6 @@
 </head>
 <body>
     <h1>OpenSampleList.jsp</h1>
+    <div>한글</div>
 </body>
 </html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd" >
+<properties>
+
+    <comment>JDBC information of PostgreSQL</comment>
+    <entry key="driverClassName">org.postgresql.Driver</entry>
+    <entry key="url">jdbc:postgresql://WIN-LBLL44L4L1U:5432/schedule</entry>
+    <entry key="username">rlaxowls</entry>
+    <entry key="password">rlaxowls1</entry>
+
+</properties>
+
+

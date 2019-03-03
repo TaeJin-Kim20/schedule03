@@ -13,7 +13,7 @@ public class AbstractDAO {
     @Autowired
     private SqlSessionTemplate sqlSession;
 
-    proteced void printQuery(String queryId) {
+    protected void printQueryId(String queryId) {
         if(log.isDebugEnabled())
         {
             log.debug("Query ID : " + queryId);
